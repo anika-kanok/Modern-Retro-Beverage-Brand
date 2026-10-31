@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+.container{
+    margin: 0 auto;
+}
+
+ul,li{
+    list-style: none;
+   
+}
+
+/* common css end here */
+
+/* header css star here */
+#header{
+    height: 244px;
+    width: 1280px;
+     display: flex;
+}
+.navber{
+    display: flex;
+    gap: 20px;
+}
+
+.logo{
+    img{
+         width: 575px;
+         height: 154px;
+    }
+}
+
+.rightside{
+    padding-top: 90px;
+    
+
+    .navbermenu{
+        
+        .menulist{
+            border: 1px solid black;
+
+            ul{
+                display: flex;
+                justify-content: space-between;
+                
+            }
+            ul li a{
+                text-decoration: none;
+            }
+
+        }
+    }
+}
+
+/* header css end here */
+
+
+
