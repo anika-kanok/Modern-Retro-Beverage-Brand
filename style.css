@@ -143,8 +143,11 @@ ul,li{
 
 
 /* productsection css start here */
-
 .product{
+    display: flex;
+    gap: 60px;
+    flex-direction: row;
+    flex-wrap: wrap;
     margin-top: 20px;
     .product-card{
         product-image{
@@ -168,9 +171,36 @@ ul,li{
         }
     }
 }
-
-
-
 /* productsection css end here */
+
+
+/* lavanda section css start */
+.lavandasection{
+    width:100%;
+    height: 540px;
+    background: #CD9D65;
+    margin-top: 40px;
+
+    .fineus{
+        padding-top: 30px;
+        
+        .us{
+            margin-left: 80px;
+            font-size: 120px;
+            line-height: 100%;
+            span{
+                color: #613B0F;
+            }
+
+        }
+
+    }
+}
+
+
+
+/* lavanda section css end */
+
+
 
 
